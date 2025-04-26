@@ -10,6 +10,10 @@ body{
   justify-content: space-between;
   padding: 10px;
   margin-bottom:50px ;
+  width: 100%;
+}
+.openbtn1{
+  display: none;
 }
 .nav-sp {
   display: none;
@@ -66,6 +70,7 @@ body{
   position: absolute;
   left: 120px;
   bottom: 100px;
+  width: 28vw;
 }
 .l-mv_img{
   position: absolute;
@@ -413,6 +418,7 @@ body{
   font-weight: 400;
   font-style: normal;
   text-align: left;
+  margin-top: 50px;
  
 }
 .l-about_title span{
@@ -421,7 +427,6 @@ body{
 .l-about_flex{
   display: flex;
   justify-content: center;
-  padding-top: 100px;
 }
 .l-about_flex img{
   width: 550px;
@@ -563,7 +568,7 @@ body{
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
 }
 .l-works_title span{
   font-size: 80px;
@@ -677,10 +682,6 @@ body{
 .right_middle_second{
   margin-bottom:30px ;
 }
-
-.openbtn1 {
-  display: none;
-}
 }
 
 @media screen and (max-width: 767px) {
@@ -699,18 +700,18 @@ body{
     right: 10px;
     height: 2px;
     border-radius: 0px;
-    width: 8vw;
+    width: 5vw;
     z-index: 120;
     background-color: black;
   }
   .openbtn1 span:nth-of-type(1) {
-    top: 2.6666666667vw;
+    top: 0.6666666667vw;
   }
   .openbtn1 span:nth-of-type(2) {
-    top: 5.3333333333vw;
+    top: 2.3333333333vw;
   }
   .openbtn1 span:nth-of-type(3) {
-    top: 8vw;
+    top: 4vw;
   }
   .openbtn1 p {
     position: absolute;
@@ -733,7 +734,7 @@ body{
     right: 10px;
     left: auto;
     transform: translateY(10px) rotate(-45deg);
-    width: 8.6666666667vw;
+    width: 5.6666666667vw;
   }
   .openbtn1.active span:nth-of-type(2) {
     opacity: 0; /*真ん中の線は透過*/
@@ -743,7 +744,7 @@ body{
     left: auto;
     right: 10px;
     transform: translateY(10px) rotate(45deg);
-    width: 8.6666666667vw;
+    width: 5.6666666667vw;
   }
   .openbtn1.active p {
     display: none;
